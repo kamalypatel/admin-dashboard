@@ -62,6 +62,55 @@
     background-color: #FFFFFF;
 }
 
+.header .icons {
+    width: 20px;
+    height: 20px;
+}
+
+.top-header {
+    margin: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    gap: 20px;
+}
+
+.search-bar {
+    background-color: #E3E8EF;
+    height: 30px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.right-top-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.right-top-header .large-icons {
+    width: 30px;
+    height: 30px;
+}
+
+.circle {
+    border: 3px solid black;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: gold;
+}
+
+
 .content-body {
     grid-row: 2 / 6;
     grid-column: 2 / 5;
