@@ -104,8 +104,8 @@
     border: 3px solid black;
     border-radius: 100%;
     padding: 5px;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
@@ -260,7 +260,7 @@ button {
     margin-left: 5px;
 }
 
-.right-body-top-header {
+.right-body-header {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
     color: black;
@@ -274,6 +274,8 @@ button {
 }
 
 .right-body-top-card {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
     background-color: white;
     border-radius: 10px;
     padding: 25px;
@@ -292,4 +294,44 @@ button {
 }
 hr {
     width: 100%;
+}
+
+.right-body-header-bottom {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    color: black;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 8px;
+}
+
+.right-body-bottom {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+}
+
+.right-body-bottom-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.right-body-bottom-section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right-body-bottom-section span {
+    color: #636363;
+    font-size: 0.9rem;
 }
