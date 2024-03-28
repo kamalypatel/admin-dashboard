@@ -254,7 +254,6 @@ button {
 .right-body {
     grid-row: 1 / 2;
     grid-column: 3 / 4;
-    border: 1px solid black;
     display: grid;
     grid-template: 8% 44% 8% 40% / 100%;
     margin-left: 5px;
