@@ -205,6 +205,7 @@ button {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
+    margin-bottom: 8px;
 }
 
 .left-body-body {
@@ -233,12 +234,12 @@ button {
 .card-header {
     font-size: 1.1rem;
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .card-text {
     color: #636363;
     font-size: 0.9rem;
-    margin-bottom: 30px;
 }
 
 .card-icon-holder {
@@ -247,4 +248,48 @@ button {
     gap: 20px;
     width: 100%;
     justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.right-body {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
+    border: 1px solid black;
+    display: grid;
+    grid-template: 8% 44% 8% 40% / 100%;
+    margin-left: 5px;
+}
+
+.right-body-top-header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    color: black;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 8px;
+    margin-top: 18px;
+}
+
+.right-body-top-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.right-body-top-card .card-header {
+    font-size: 0.9rem;
+}
+
+.right-body-top-card .card-text{
+    font-size: 0.8rem;
+}
+hr {
+    width: 100%;
 }
